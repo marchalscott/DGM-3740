@@ -1,5 +1,14 @@
-/*body {
+body {
     font-family: Helvetica;
+}
+
+.logo {
+    height: 50%;
+    width: 50%;
+}
+
+.phone {
+    float: right;
 }
 
 nav {
@@ -26,4 +35,27 @@ nav ul li:last-child {
 nav ul li a {
     padding: .5rem 1rem;
     text-decoration: none;
-}*/
+}
+
+.search {
+    float: right;
+}
+
+figure {
+    display: block;
+    float: left;
+    width: auto;
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    float: left;
+    width: auto;
+    text-decoration: none;
+}
+
+
+.clearfix {
+    overflow: auto;
+  }
