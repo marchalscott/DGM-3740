@@ -148,7 +148,7 @@ footer {
     .social {
         display: block;
         margin: 0 auto;
-
+        max-width: 1200px;
         a {
             display: block;
             margin: 0 auto;
@@ -156,22 +156,17 @@ footer {
             i {
                 display: block;
                 float: left;
-                margin: 0 auto;
-
-                .fab {
-                    display: block;
-                    margin: 0 auto;
-                    padding: 10px;
-                }
+                margin: 10px;
             }
         }
     }
 }
 
 .footerNote {
-    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
 }
-
 
 .clearfix {
     overflow: auto;
