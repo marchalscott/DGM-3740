@@ -19,25 +19,27 @@
     </header>
   </div>
   <!--Nav-->
-  <div class="navWrapper">
-    <div class="topNavigation">
-      <a href="#" class="active">Home</a>
-      <a href="#">Cruises</a>
-      <a href="#">Agents</a>
-      <div class="dropDown">
-        <button class="dropdownBTN">Books</button>
-        <div class="dropdownItems">
-          <a href="#">Mobile 1</a>
-          <a href="#">Mobile 2</a>
-          <a href="#">Mobile 3</a>
-        </div>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
-      <div class="search">
-        <input type="search" name="search" id="search" placeholder="Search">
-      </div>
-    </div>
-  </div>
+  <nav class="clearfix">
+      <button id="hamburgerBtn"></button>
+  <ul class="clearfix" id="primaryNav">
+    <li><a href="#">DEALS</a></li>
+    <li class="parent"><a href="#">RESORTS</a>
+      <ul>
+        <li><a href="#">Beach</a></li>
+        <li><a href="#">Ski</a></li>
+      </ul>
+    </li>
+    <li class="parent active"><a href="#">CRUISES</a>
+          <ul>
+        <li><a href="#">Winter</a></li>
+        <li><a href="#">Spring</a></li>
+        <li><a href="#">Summer</a></li>
+        <li><a href="#">Fall</a></li>
+      </ul></li>
+    <li><a href="#">CONTACT US</a></li>
+    <input type="text" placeholder="Search..">
+  </ul>
+      </nav>
   <main>
       <section id="banners">
           <div class="banner one">

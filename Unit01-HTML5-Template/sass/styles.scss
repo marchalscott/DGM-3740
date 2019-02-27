@@ -1,6 +1,6 @@
 @import "reset";
 
-@media only screen and (min-width: 1px) {
+@media only screen and (min-width: 1px) and (max-width: 559px) {
 	@import "mobileMenu";
 	@import "small";
 }
