@@ -109,8 +109,10 @@ h2 {
 
 .articleContent {
     max-width: 1200px;
-    display: block;
-    margin: 0 auto;
+    display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;   
+  flex-wrap: wrap;
     -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
     -moz-columns: 100px 3; /* Firefox */
     columns: 100px 3;
