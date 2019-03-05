@@ -8,7 +8,6 @@ body {
 header {
     background-color: $nav-background;
 
-// NEW HEADER CSS - LOGO & Phone Number
 .header {
     overflow: hidden;
     background-color: $nav-background;
@@ -71,7 +70,7 @@ header {
 }
 
 
-/* ----------- NEW NAV MENU  -------*/
+
 .topnav {
   overflow: hidden;
   background-color: $nav-background;
@@ -155,7 +154,7 @@ input {
 
 #search {
     border: 1px solid #ccc;
-    padding: 10px 9px 6px 9px;
+    padding: 11px 9px 6px 9px;
     width: 150px;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -171,7 +170,7 @@ input {
     background-color:#C8C8C8;
     color: #484848;
   } 
-/* Removes text input glow */
+
 textarea, select, input, button { outline: none; }
 
 @media screen and (max-width: 600px) {
@@ -245,7 +244,6 @@ textarea, select, input, button { outline: none; }
 }
 }
 
-// NEW CSS IMAGE SLIDER
 #wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -425,9 +423,9 @@ textarea, select, input, button { outline: none; }
 
 
 footer {
-    background: $white;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #C8C8C8, $white);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #C8C8C8, $white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: $white;
+    background: -webkit-linear-gradient(to bottom, #C8C8C8, $white);
+    background: linear-gradient(to bottom, #C8C8C8, $white);
 }
 
 .info {
