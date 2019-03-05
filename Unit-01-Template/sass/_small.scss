@@ -106,7 +106,7 @@ header {
   border: none;
   outline: none;
   color: $white;
-  padding: 14px 16px;
+  padding: 16px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -144,7 +144,7 @@ header {
   display: block;
 }
 .search { 
-  margin-top: 6px;
+  margin-top: 8px;
   float: right;
 }
 
@@ -184,7 +184,6 @@ textarea, select, input, button { outline: none; }
   
   input {
   padding: 9px;
-  border-radius: 10px;
     
 }
   .search {
@@ -515,7 +514,7 @@ footer {
 .copyright {
     padding:5%;
     text-align: center;
-    background-color: #005b97;
+    background-color: $nav-background;
     color: #cce6ff;
     font-size: 95%;
     a {
